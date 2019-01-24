@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Test</title>
-      <link href="/2019/01/17/Test.html"/>
-      <url>/2019/01/17/Test.html</url>
-      
-        <content type="html"><![CDATA[<p>个人网站，美化中…<br>纯属兴趣~~~</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[Test]]></title>
+    <url>%2F2019%2F01%2F17%2FTest.html</url>
+    <content type="text"><![CDATA[个人网站，美化中…纯属兴趣~~~]]></content>
+  </entry>
 </search>
