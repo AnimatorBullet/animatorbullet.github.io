@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>〔子弹时间〕 Bullet Time ⊹ Blog</title>
+  
+  <subtitle>StayReal Dreams - S.银色子弹</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://acebullet.tk/"/>
+  <updated>2019-01-20T13:51:34.482Z</updated>
+  <id>https://acebullet.tk/</id>
+  
+  <author>
+    <name>✪ Animator.Bullet</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Test</title>
+    <link href="https://acebullet.tk/2019/01/17/Test.html"/>
+    <id>https://acebullet.tk/2019/01/17/Test.html</id>
+    <published>2019-01-16T16:37:56.000Z</published>
+    <updated>2019-01-20T13:51:34.482Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;个人网站，美化中…&lt;br&gt;纯属兴趣~~~&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
