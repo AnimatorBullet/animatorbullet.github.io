@@ -2135,7 +2135,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #28ff96;
+  background: #83ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3648,17 +3648,6 @@ table th {
 .site-meta {
   background: #000;
 }
-.posts-expand .post-tags a {
-  background: #e6e6e6;
-  padding: 3px 4px;
-  border-radius: 3px;
-  color: #2ca6cb;
-  border-bottom: none;
-}
-.posts-expand .post-tags a:hover {
-  color: #fff;
-  background: #2ca6cb;
-}
 hr {
   margin: 0px 0px 0px 0px;
   height: 1px;
@@ -3890,4 +3879,56 @@ code.description {
 .ImageInCard img {
   padding: 0 0 0 0;
   border-radius: 8px;
+}
+span#inline-yellow {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 80%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0;
+  background-color: #f0ad4e;
+}
+span#inline-green {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 80%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0;
+  background-color: #5cb85c;
+}
+span#inline-blue {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 80%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0;
+  background-color: #2780e3;
+}
+span#inline-purple {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 80%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0;
+  background-color: #9954bb;
 }
