@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>〔子弹时间〕 Bullet Time ⊹ Blog</title>
+  <title>Bullet Time ⊹ Blog</title>
   
-  <subtitle>StayReal Dreams - S.银色子弹</subtitle>
+  <subtitle>〔 EX 子弹时间 〕&lt;br&gt;StayReal Dreams - S.银色子弹</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://acebullet.tk/"/>
-  <updated>2019-01-31T16:37:28.571Z</updated>
+  <updated>2019-02-01T18:21:15.359Z</updated>
   <id>https://acebullet.tk/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>测试文章中添加视频GIF</title>
-    <link href="https://acebullet.tk/2019/01/31/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91GIF.html"/>
-    <id>https://acebullet.tk/2019/01/31/测试文章中添加视频GIF.html</id>
+    <link href="https://acebullet.tk/Animation/gif-test.html"/>
+    <id>https://acebullet.tk/Animation/gif-test.html</id>
     <published>2019-01-30T16:15:38.000Z</published>
-    <updated>2019-01-31T16:37:28.571Z</updated>
+    <updated>2019-02-01T18:21:15.359Z</updated>
     
     <summary type="html">
     
@@ -31,7 +31,7 @@
     
     </summary>
     
-      <category term="S.anim" scheme="https://acebullet.tk/categories/S-anim/"/>
+      <category term="Animation" scheme="https://acebullet.tk/categories/Animation/"/>
     
     
       <category term="S.anim" scheme="https://acebullet.tk/tags/S-anim/"/>
@@ -40,10 +40,10 @@
   
   <entry>
     <title>Test</title>
-    <link href="https://acebullet.tk/2019/01/17/Test.html"/>
-    <id>https://acebullet.tk/2019/01/17/Test.html</id>
+    <link href="https://acebullet.tk/Test/test.html"/>
+    <id>https://acebullet.tk/Test/test.html</id>
     <published>2019-01-16T16:37:56.000Z</published>
-    <updated>2019-01-20T13:51:34.482Z</updated>
+    <updated>2019-02-01T18:07:29.315Z</updated>
     
     <summary type="html">
     
@@ -58,6 +58,10 @@
     
     </summary>
     
+      <category term="Test" scheme="https://acebullet.tk/categories/Test/"/>
+    
+    
+      <category term="Test" scheme="https://acebullet.tk/tags/Test/"/>
     
   </entry>
   

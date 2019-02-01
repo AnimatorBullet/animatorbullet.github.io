@@ -2,10 +2,10 @@
 <search>
   <entry>
     <title><![CDATA[测试文章中添加视频GIF]]></title>
-    <url>%2F2019%2F01%2F31%2F%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91GIF.html</url>
+    <url>%2FAnimation%2Fgif-test.html</url>
     <content type="text"><![CDATA[文章添加视频和GIF测试，顺便测试置顶功能~为以后放作品做测试（？） 视频如下 ——代码，按钮等等样式随缘测试~ B站地址（超链接）123如果好用可考虑以后放作品！（很大概率会鸽掉~）**代码块。]]></content>
       <categories>
-        <category>S.anim</category>
+        <category>Animation</category>
       </categories>
       <tags>
         <tag>S.anim</tag>
@@ -13,7 +13,13 @@
   </entry>
   <entry>
     <title><![CDATA[Test]]></title>
-    <url>%2F2019%2F01%2F17%2FTest.html</url>
+    <url>%2FTest%2Ftest.html</url>
     <content type="text"><![CDATA[个人网站，美化中…纯属兴趣~~~]]></content>
+      <categories>
+        <category>Test</category>
+      </categories>
+      <tags>
+        <tag>Test</tag>
+      </tags>
   </entry>
 </search>

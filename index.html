@@ -108,20 +108,20 @@
 
 
 
-  <meta name="description" content="做游戏的动画狮和技术美术（？）">
+  <meta name="description" content="游戏TA &amp; 个人动画师">
 <meta property="og:type" content="website">
-<meta property="og:title" content="〔子弹时间〕 Bullet Time ⊹ Blog">
+<meta property="og:title" content="Bullet Time ⊹ Blog">
 <meta property="og:url" content="https://acebullet.tk/index.html">
-<meta property="og:site_name" content="〔子弹时间〕 Bullet Time ⊹ Blog">
-<meta property="og:description" content="做游戏的动画狮和技术美术（？）">
+<meta property="og:site_name" content="Bullet Time ⊹ Blog">
+<meta property="og:description" content="游戏TA &amp; 个人动画师">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="〔子弹时间〕 Bullet Time ⊹ Blog">
-<meta name="twitter:description" content="做游戏的动画狮和技术美术（？）">
+<meta name="twitter:title" content="Bullet Time ⊹ Blog">
+<meta name="twitter:description" content="游戏TA &amp; 个人动画师">
 
 
 
-  <link rel="alternate" href="/atom.xml" title="〔子弹时间〕 Bullet Time ⊹ Blog" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="Bullet Time ⊹ Blog" type="application/atom+xml">
 
 
 
@@ -136,7 +136,7 @@
   };
 </script>
 
-  <title>〔子弹时间〕 Bullet Time ⊹ Blog</title>
+  <title>Bullet Time ⊹ Blog</title>
   <style>
   .forkme{
  display: none;
@@ -2297,7 +2297,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #60ffa4;
+  background: #a7a2ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3744,7 +3744,6 @@ ul.breadcrumb li+li:last-child {
 }
 .posts-expand .post-body .fancybox img {
   display: block !important;
-  margin-left: 0px;
   cursor: pointer;
   cursor: zoom-in;
   cursor: -webkit-zoom-in;
@@ -4101,6 +4100,111 @@ body {
   background-size: 100% 100%;
   background-attachment: fixed;
 }
+.local-search-popup .search-icon,
+.local-search-popup .popup-btn-close {
+  color: #f79533;
+  margin-top: 7px;
+}
+.local-search-popup .local-search-input-wrapper input {
+  padding: 9px 0px;
+  height: 21px;
+  background-color: #fff;
+}
+.local-search-popup .popup-btn-close {
+  border-left: none;
+}
+.posts-collapse {
+  margin: 50px 0px;
+}
+@media (max-width: 1023px) {
+  .posts-collapse {
+    margin: 50px 20px;
+  }
+}
+.posts-collapse::after {
+  margin-left: -2px;
+  background-image: linear-gradient(180deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
+}
+.posts-collapse .collection-title::before {
+  background-color: #19b48c;
+}
+.posts-collapse .post-header:hover::before {
+  background-color: #a166ab;
+}
+.posts-collapse .collection-title h1,
+.posts-collapse .collection-title h2 {
+  color: #fff;
+}
+.posts-collapse .post-title a {
+  color: #5073b8;
+}
+.posts-collapse .post-title a:hover {
+  color: #a166ab;
+}
+.posts-collapse .post-header:hover {
+  border-bottom-color: #a166ab;
+}
+.page-archive .archive-page-counter {
+  color: #fff;
+}
+.page-archive .posts-collapse .archive-move-on {
+  top: 10px;
+  opacity: 1;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.post-nav-item a {
+  color: #5073b8;
+  font-weight: bold;
+}
+.post-nav-item a:hover {
+  color: #a166ab;
+  font-weight: bold;
+}
+.posts-expand .post-tags a {
+  border-bottom: none;
+  margin-right: 0px;
+  font-size: 13px;
+  padding: 0px 5px;
+  border-radius: 3px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+.posts-expand .post-tags a:hover {
+  background: #eee;
+}
+.posts-expand .post-eof {
+  margin: 0px;
+  background-color: rgba(255,255,255,0);
+}
+.pagination {
+  border: none;
+  margin: 0px;
+}
+.pagination .page-number.current {
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  background-color: rgba(255,255,255,0.35);
+}
+.pagination .prev,
+.pagination .next,
+.pagination .page-number {
+  margin-bottom: 10px;
+  border: none;
+}
+.pagination .space {
+  color: #fff;
+}
+.footer {
+  line-height: 1.5;
+  background-color: rgba(255,255,255,0.75);
+  color: #333;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #a166ab;
+  box-shadow: 0px -10px 10px 0px rgba(0,0,0,0.15);
+}
 </style><noscript>
   <style>
   .use-motion .motion-element,
@@ -4151,13 +4255,13 @@ body {
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">〔子弹时间〕 Bullet Time ⊹ Blog</span>
+        <span class="site-title">Bullet Time ⊹ Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
     
       
-        <p class="site-subtitle">StayReal Dreams - S.银色子弹</p>
+        <p class="site-subtitle">〔 EX 子弹时间 〕<br>StayReal Dreams - S.银色子弹</p>
       
     
     
@@ -4375,16 +4479,16 @@ body {
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://acebullet.tk/2019/01/31/测试文章中添加视频GIF.html">
+    <link itemprop="mainEntityOfPage" href="https://acebullet.tk/Animation/gif-test.html">
 
     <span hidden="" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="✪ Animator.Bullet">
-      <meta itemprop="description" content="做游戏的动画狮和技术美术（？）">
+      <meta itemprop="description" content="游戏TA &amp; 个人动画师">
       <meta itemprop="image" content="/uploads/avatar.gif">
     </span>
 
     <span hidden="" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="〔子弹时间〕 Bullet Time ⊹ Blog">
+      <meta itemprop="name" content="Bullet Time ⊹ Blog">
     </span>
 
     
@@ -4395,7 +4499,7 @@ body {
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/01/31/测试文章中添加视频GIF.html" class="post-title-link" itemprop="url">测试文章中添加视频GIF</a>
+                <a href="/Animation/gif-test.html" class="post-title-link" itemprop="url">测试文章中添加视频GIF</a>
               
             
           </h1>
@@ -4437,7 +4541,7 @@ body {
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-02-01 00:37:28" itemprop="dateModified" datetime="2019-02-01T00:37:28+08:00">2019-02-01</time>
+                <time title="修改时间：2019-02-02 02:21:15" itemprop="dateModified" datetime="2019-02-02T02:21:15+08:00">2019-02-02</time>
               
             
           </span>
@@ -4454,7 +4558,7 @@ body {
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/S-anim/" itemprop="url" rel="index"><span itemprop="name">S.anim</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/Animation/" itemprop="url" rel="index"><span itemprop="name">Animation</span></a></span>
 
                 
                 
@@ -4472,8 +4576,8 @@ body {
                   <i class="fa fa-comment-o"></i>
                 </span>
             
-                <a href="/2019/01/31/测试文章中添加视频GIF.html#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2019/01/31/测试文章中添加视频GIF.html" itemprop="commentCount"></span>
+                <a href="/Animation/gif-test.html#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/Animation/gif-test.html" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -4536,7 +4640,7 @@ body {
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/2019/01/31/测试文章中添加视频GIF.html#more" rel="contents">
+              <a class="btn" href="/Animation/gif-test.html#more" rel="contents">
                 阅读全文 »
               </a>
             </div>
@@ -4605,16 +4709,16 @@ body {
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://acebullet.tk/2019/01/17/Test.html">
+    <link itemprop="mainEntityOfPage" href="https://acebullet.tk/Test/test.html">
 
     <span hidden="" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="✪ Animator.Bullet">
-      <meta itemprop="description" content="做游戏的动画狮和技术美术（？）">
+      <meta itemprop="description" content="游戏TA &amp; 个人动画师">
       <meta itemprop="image" content="/uploads/avatar.gif">
     </span>
 
     <span hidden="" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="〔子弹时间〕 Bullet Time ⊹ Blog">
+      <meta itemprop="name" content="Bullet Time ⊹ Blog">
     </span>
 
     
@@ -4625,7 +4729,7 @@ body {
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/01/17/Test.html" class="post-title-link" itemprop="url">Test</a>
+                <a href="/Test/test.html" class="post-title-link" itemprop="url">Test</a>
               
             
           </h1>
@@ -4667,11 +4771,29 @@ body {
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-01-20 21:51:34" itemprop="dateModified" datetime="2019-01-20T21:51:34+08:00">2019-01-20</time>
+                <time title="修改时间：2019-02-02 02:07:29" itemprop="dateModified" datetime="2019-02-02T02:07:29+08:00">2019-02-02</time>
               
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/Test/" itemprop="url" rel="index"><span itemprop="name">Test</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -4684,8 +4806,8 @@ body {
                   <i class="fa fa-comment-o"></i>
                 </span>
             
-                <a href="/2019/01/17/Test.html#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2019/01/17/Test.html" itemprop="commentCount"></span>
+                <a href="/Test/test.html#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/Test/test.html" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -4832,7 +4954,7 @@ body {
               </a>
             
               <p class="site-author-name" itemprop="name">✪ Animator.Bullet</p>
-              <p class="site-description motion-element" itemprop="description">做游戏的动画狮和技术美术（？）</p>
+              <p class="site-description motion-element" itemprop="description">游戏TA &amp; 个人动画师</p>
           </div>
 
           
@@ -4857,7 +4979,9 @@ body {
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -4872,7 +4996,9 @@ body {
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
