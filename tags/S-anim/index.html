@@ -2297,7 +2297,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1caa0d;
+  background: #d49e25;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3622,6 +3622,9 @@ ul.breadcrumb li+li:last-child {
 #posts > article + article .post-block {
   margin-top: 0px;
 }
+.post-block {
+  padding: 20px;
+}
 .post-toc .nav .nav-child {
   display: block;
 }
@@ -3670,7 +3673,7 @@ ul.breadcrumb li+li:last-child {
   font-weight: bold;
   height: 48px;
   line-height: 40px;
-  margin: 20px -42.3px 15px -48px;
+  margin: 20px -40px 15px -40px;
   padding-left: 1.7%;
   position: relative;
   background-color: #ecf6f7;
@@ -3717,6 +3720,10 @@ ul.breadcrumb li+li:last-child {
 }
 .post-button .btn {
   border-bottom: 2px solid #555;
+}
+.post-button {
+  margin-top: 20px;
+  margin: 0px;
 }
 .posts-expand .post-body ul li {
   list-style: disc;
@@ -3917,6 +3924,9 @@ code {
 .posts-collapse .post-title {
   margin-left: 90px;
 }
+.posts-expand .post-meta {
+  margin: 3px 0 0px 0;
+}
 .post-body p {
   letter-spacing: 0.5px;
 }
@@ -3954,6 +3964,7 @@ h6 {
   }
   .posts-expand .post-meta {
     font-size: 10px;
+    margin: 3px 0 0px 0;
   }
   .post {
     margin-bottom: 0px !important;
@@ -3972,9 +3983,6 @@ h6 {
   }
   .post-widgets {
     margin-top: 0px;
-  }
-  .comments {
-    margin: 40px 0px 40px 0px !important;
   }
   .footer {
     box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.5);
@@ -4016,7 +4024,7 @@ p.description {
   font-size: 14px;
   font-style: italic;
   color: #666;
-  margin-top: 30px;
+  margin: 0px;
 }
 code.description {
   padding: 1px 1px 1px 1px;
@@ -4240,6 +4248,152 @@ body {
 .feed-link a i {
   color: #0593d3;
   font-size: 14px;
+}
+div.vheader.item2 {
+  border-bottom: 1px solid #5f5f5f;
+  height: 35px !important;
+}
+.v .vwrap .vheader.item2 .vinput {
+  height: 30px !important;
+  border: 0px !important;
+  width: 25% !important;
+  margin: 0px !important;
+}
+.v .vinput {
+  padding: 5px 5px !important;
+}
+input.vnick.vinput {
+  border-right: 1px dashed #a4d8fa !important;
+}
+input.vmail.vinput {
+  border-right: 1px dashed #a4d8fa !important;
+}
+v.vcontrol {
+  padding-top: 10px !important;
+}
+.v .vwrap {
+  border: 2px solid #000 !important;
+  border-radius: 6px !important;
+  overflow: visible !important;
+  counter-reset: avater;
+}
+.v .vbtn {
+  background-color: #5f5f5f !important;
+  color: #fff !important;
+}
+.v .vwrap .vedit .vctrl {
+  text-align: right !important;
+}
+.v .vwrap .vedit .vctrl span {
+  background-color: #7f7f7f !important;
+  color: #fff !important;
+  border-radius: 3px !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+.v .vwrap .vedit .vctrl {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.v .veditor {
+  min-height: 5rem !important;
+}
+.v .vlist .vcard .vhead .vsys {
+  display: none !important;
+  background-color: #fff !important;
+}
+.v .vlist .vcard .vh .vmeta .vat {
+  background-color: #7f7f7f !important;
+  color: #fff !important;
+  border-radius: 3px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.v .vlist .vcard .vhead:before {
+  display: block;
+  float: left;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 2px 0 0;
+  color: #000;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  content: counter(avater) ' L';
+  counter-increment: avater;
+}
+.v .vlist .vcard .vquote {
+  margin-left: 80px;
+}
+.v .vlist .vcard .vquote {
+  counter-reset: avaters;
+}
+.v .vlist .vcard .vquote .vhead:before {
+  display: block;
+  float: left;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  margin: 0 12px 0 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  background-color: #fff;
+  border: 3px solid #60a1e5;
+  color: #60a1e5;
+  border-radius: 50%;
+  text-align: center;
+  content: counter(avaters);
+  counter-increment: avaters;
+}
+.v .vlist .vcard p {
+  margin-bottom: 0px !important;
+  color: #666;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 25.59375px;
+}
+.v .vlist .vcard .vquote a.at {
+  float: left;
+  margin-right: 13px;
+  color: #567843;
+  text-decoration: none;
+}
+.v .vlist .vcard .vquote .vcontent {
+  font-size: 15px;
+  font-weight: 200;
+}
+.v .vlist .vcard .vcontent {
+  margin-top: 58px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  padding-top: 0px !important;
+}
+.v .vlist .vcard .vhead .vnick {
+  font-size: 17px !important;
+  font-weight: 600 !important;
+}
+.v .vlist .vcard {
+  padding: 10px !important;
+}
+.v .vlist .vcard .vhead {
+  float: left !important;
+}
+.v .vlist .vcard .vh .vmeta {
+  float: right !important;
+}
+.v .vlist .vcard .vcontent.expand:after {
+  content: "点击查看全部" !important;
+  font-weight: 400 !important;
+}
+.comments {
+  margin: 20px;
+}
+.posts-expand {
+  padding: 30px;
 }
 </style><noscript>
   <style>
@@ -5524,4 +5678,4 @@ pangu.spacingPage();;
     bookmark.loadBookmark();
   
   ;
-L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"scale":0.3,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/kesshouban.model.json"},"display":{"superSample":2,"width":120,"height":250,"position":"left","hOffset":0,"vOffset":-20},"mobile":{"show":false,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.2},"log":false,"tagMode":false});</script></body></html>
+L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"scale":0.2,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/kesshouban.model.json"},"display":{"superSample":2,"width":120,"height":250,"position":"left","hOffset":0,"vOffset":-20},"mobile":{"show":false,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.2},"log":false,"tagMode":false});</script></body></html>
