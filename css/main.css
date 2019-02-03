@@ -2135,7 +2135,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffa8eb;
+  background: #ff5861;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3785,7 +3785,7 @@ h6 {
   }
   .posts-expand {
     margin: 0px;
-    padding-top: 70px;
+    padding-top: 0px;
   }
   .posts-expand .post-title {
     font-size: 22px;
@@ -3794,7 +3794,7 @@ h6 {
     font-size: 10px;
   }
   .post {
-    margin-bottom: 30px !important;
+    margin-bottom: 0px !important;
     padding: 20px 15px 15px 15px !important;
   }
   .post-body h2,
@@ -4043,7 +4043,7 @@ body {
 .links-of-blogroll-title {
   margin-bottom: 10px;
   margin-top: 15px;
-  color: rgba(255,100,35,0.75);
+  color: rgba(5,147,211,0.75);
   margin-left: 6px;
   font-size: 15px;
   font-weight: bold;
@@ -4053,7 +4053,7 @@ body {
 }
 #days {
   display: block;
-  color: #fc6423;
+  color: #0593d3;
   font-size: 13px;
   margin-top: 15px;
 }
@@ -4069,4 +4069,13 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+}
+.feed-link a {
+  display: block;
+  color: #0593d3;
+  border: none;
+}
+.feed-link a i {
+  color: #0593d3;
+  font-size: 14px;
 }
