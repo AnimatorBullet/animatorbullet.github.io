@@ -21,8 +21,8 @@ photo ={
            imageY = imageSize.split('.')[1];
             li += '<div class="card" style="width:250px">' +
                     '<div class="ImageInCard" style="height:'+ 250 * imageY / imageX + 'px">' +
-                      '<a data-fancybox="gallery" href="https://coding.net/u/AnimatorBullet/p/AnimatorBullet/git/raw/backup/source/photos/uploadPhotos/Images/' + imgNameWithPattern + '?raw=true" data-caption="' + imgName + '">' +
-                        '<img src="https://coding.net/u/AnimatorBullet/p/AnimatorBullet/git/raw/backup/source/photos/uploadPhotos/Images/' + imgNameWithPattern + '?raw=true"/>' +
+                      '<a data-fancybox="gallery" href="/photos/uploadPhotos/Images/' + imgNameWithPattern + '?raw=true" data-caption="' + imgName + '">' +
+                        '<img src="/photos/uploadPhotos/Images/' + imgNameWithPattern + '?raw=true"/>' +
                       '</a>' +
                     '</div>' +
                     //'<div class="TextInCard">' + imgName + '</div>' +
