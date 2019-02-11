@@ -2299,7 +2299,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d49e25;
+  background: #7991ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -4743,18 +4743,6 @@ v.vcontrol {
           
             
             
-              
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-            
-                <a href="/Test/test.html#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/Test/test.html" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
           
 
           
@@ -4968,6 +4956,7 @@ v.vcontrol {
 
   
     <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80MjIyMC8xODc2Nw=="></div>
     </div>
 
   
@@ -5423,18 +5412,10 @@ v.vcontrol {
 
 
   
+
+
   
-
-<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
-
-
-
-<script src="//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script>
-
-
-
-
-
+    
 
   
 
@@ -5575,23 +5556,17 @@ show_date_time();
   }
 ;
 
-  var GUEST = ['nick', 'mail', 'link'];
-  var guest = 'nick,mail,link';
-  guest = guest.split(',').filter(function(item) {
-    return GUEST.indexOf(item) > -1;
-  });
-  new Valine({
-    el: '#comments',
-    verify: false,
-    notify: true,
-    appId: '7xLNPvGoHxcD5PlcXgb8Jtfo-gzGzoHsz',
-    appKey: 'XNjtSQEO732FcIBAXL2JSvwk',
-    placeholder: '// 填写昵称和邮箱，收到回复会自动通知你哦~😉  ![](https://...)  可添加图片~（善用右下角预览）',
-    avatar: 'retro',
-    meta: guest,
-    pageSize: '10' || 10,
-    visitor: false
-  });
+  window.livereOptions = {
+    refer: 'Test/test.html'
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
 ;
 
     // Popup Window;
