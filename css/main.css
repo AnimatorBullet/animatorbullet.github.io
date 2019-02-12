@@ -2135,7 +2135,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #030a0a;
+  background: #162034;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -4222,4 +4222,8 @@ v.vcontrol {
 }
 .posts-expand {
   padding: 20px;
+}
+.site-description {
+  font-size: 13px;
+  color: #0593d3;
 }

@@ -2297,7 +2297,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff4f16;
+  background: #b687e7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -4385,6 +4385,10 @@ v.vcontrol {
 .posts-expand {
   padding: 20px;
 }
+.site-description {
+  font-size: 13px;
+  color: #0593d3;
+}
 </style><noscript>
   <style>
   .use-motion .motion-element,
@@ -5220,10 +5224,16 @@ v.vcontrol {
 
 	<!-- 页面点击小红心 -->
 
-  <!-- 页面点击特效 -->
-	
-  <script type="text/javascript" color="218,112,214" opacity="0.7" zindex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+   <!--页面点击特效 
+	<script type="text/javascript" src="/js/src/click-word.js"></script> 
+  <script type="text/javascript"
+color="218,112,214" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script> -->
   <!--崩溃欺骗-->
+  
+
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas> 
+   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+   
   
 
 
