@@ -2298,7 +2298,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffa4ff;
+  background: #45d2ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -4682,49 +4682,23 @@ v.vcontrol {
       <div class="post-body">
         
         
-          <div class="tag-cloud">
-  <!-- <div class="tag-cloud-title">
-      目前共计 6 个标签
-  </div> -->
-  <div class="tag-cloud-tags" id="tags">
-    <a href="/tags/S-anim/" style="font-size: 16px; color: #fff">S.anim</a> <a href="/tags/Test/" style="font-size: 16px; color: #fff">Test</a> <a href="/tags/动画参考/" style="font-size: 16px; color: #fff">动画参考</a> <a href="/tags/尼尔-机械纪元/" style="font-size: 16px; color: #fff">尼尔 机械纪元</a> <a href="/tags/模型提取/" style="font-size: 16px; color: #fff">模型提取</a> <a href="/tags/游戏解包/" style="font-size: 16px; color: #fff">游戏解包</a>
-  </div>
+   <div class="tag-cloud">
+
+   <div class="tag-cloud-title">
+       目前共计 6 个标签
+   </div>
+   
+
+
+<div class="widget-wrap">
+<div id="myCanvasContainer" class="widget tagcloud">
+<canvas width="500" height="500" id="resCanvas" style="width=100%">
+<ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/S-anim/">S.anim</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Test/">Test</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/动画参考/">动画参考</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/尼尔-机械纪元/">尼尔 机械纪元</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/模型提取/">模型提取</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/游戏解包/">游戏解包</a><span class="tag-list-count">1</span></li></ul>
+</canvas>
 </div>
-<br>
+</div>
 
-
-
-<style type="text/css">
-    div#posts.posts-expand .tag-cloud a{
-   background-color: #f5f7f1;
-   border-radius: 6px;
-   padding-left: 10px;
-   padding-right: 10px;
-   margin-top: 18px;
-
- }
-
- .tag-cloud a{
-   background-color: #f5f7f1;
-   border-radius: 4px;
-   padding-right: 5px;
-   padding-left: 5px;
-   margin-right: 5px;
-   margin-left: 0px;
-   margin-top: 8px;
-   margin-bottom: 0px;
-
- }
-
- .tag-cloud a:before{
-      content: "⊹ ";
- }
-
- .tag-cloud-tags{
-   text-align: left;
-   counter-reset: tags;
- }
-</style>
+ </div>
         
       </div>
       
@@ -5293,17 +5267,6 @@ v.vcontrol {
 
 
 <script type="text/javascript" src="/bundle.js"></script><script type="text/javascript">
-   var alltags=document.getElementById('tags');
-   var tags=alltags.getElementsByTagName('a');
-
-   for (var i = tags.length - 1; i >= 0; i--) {
-     var r=Math.floor(Math.random()*75+130);
-     var g=Math.floor(Math.random()*75+100);
-     var b=Math.floor(Math.random()*75+80);
-     tags[i].style.background = "rgb("+r+","+g+","+b+")";
-   }
-;
-
 function show_date_time(){
 window.setTimeout("show_date_time()", 1000);
 BirthDay=new Date("01/13/2019 00:00:00");
