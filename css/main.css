@@ -2135,7 +2135,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ba8bf1;
+  background: #db52ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -4226,4 +4226,8 @@ v.vcontrol {
 .site-description {
   font-size: 13px;
   color: #0593d3;
+}
+.posts-collapse .collection-title h1,
+.posts-collapse .collection-title h2 {
+  color: #ff593d;
 }
