@@ -1,39 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[（02.14更新）【子弹时间】尼尔动画源文件60fps查看]]></title>
-    <url>%2FBullet-Time%2Fnier-export.html</url>
-    <content type="text"><![CDATA[之前本人在CGjoy发过，转到这里留个爪…(水印就不管啦~) 初始帖地址 → 火箭直达tips：视频不显示请刷新网页~ (function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://v.cgjoy.com/forum/201901/13/105649ee1e2ealrcq21aaq.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})() 全网第二发~（前言＋最新文档发布）（最新文档）2019.02.14 v0.3 提取码：siv0（可能个别动作提取有问题，待完善）文档已更新~有问题弹我！最近从广州爬来上海，事情太多一直缺更，心血来潮，突发奇想，遂提取一下尼尔，结果貌似发现新世界~所以这次来个猛的~（？）２０１９．０１．１２ 2019.02.14 更新4（完善步骤）经过多数小伙伴反馈，完善了一下载入动画步骤~ 2019.01.15 更新3添加方便打包解包dat等文件工具，非常节省时间！！！NieRExplorer-alpha-0-3 提取码：j44g 2019.01.13 更新2（重大更新）文档下载：（上文已更新版本） 2019.01.13 更新1折腾了一天，经历重重挫折终于勉强算是搞定了第一步。。过程太傻太冗长，待后续更新。顺带放出个伪（？）max文件。几百个动作在一个文件里，得解包再拆分还原太麻烦了。。导出就不全导出了。当查看器还蛮不错的。等睡醒后，再整理下步骤加个录屏~（鸽了，换成了文档形式） 2019.01.12 干货预览（插件非原创）tips：视频不显示请刷新网页~ (function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","loop":true,"video":{"url":"https://v.cgjoy.com/forum/201901/12/175155bazinanxxctkinjy.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})() 由于查看的资源文件太大（10多G，非游戏源文件），等我整理好再发教程~先迫不及待分享下！各位口下留情…]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>（02.14更新）【子弹时间】尼尔动画源文件60fps查看</title>
+      <link href="/Bullet-Time/nier-export.html"/>
+      <url>/Bullet-Time/nier-export.html</url>
+      
+        <content type="html"><![CDATA[<p><strong><p class="description">之前本人在CGjoy发过，转到这里留个爪…(水印就不管啦~)</p></strong></p><p><center><img src="https://attach.cgjoy.com/attachment/forum/201901/12/175138q3yyskkbg29gbx36.jpg" alt="" style="width:50%"></center><a id="more"></a></p><h1 id="初始帖地址-→"><a href="#初始帖地址-→" class="headerlink" title="　初始帖地址 → "></a>　初始帖地址 → <a class="btn" href="https://www.cgjoy.com/forum.php?mod=viewthread&tid=217954" target="_blank" rel="noopener"><i class="fa fa-rocket fa-lg fa-fw"></i>火箭直达</a></h1><p><em><font color="#FF0000">tips：视频不显示请刷新网页~</font></em><center> <div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://v.cgjoy.com/forum/201901/13/105649ee1e2ealrcq21aaq.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> </center></p><h2 id="全网第二发-（前言＋最新文档发布）"><a href="#全网第二发-（前言＋最新文档发布）" class="headerlink" title="　全网第二发~（前言＋最新文档发布）"></a>　全网第二发~（前言＋最新文档发布）</h2><p><a class="btn" href="https://pan.baidu.com/s/1_2eBcvwYpOSXu6nOXGsaQw" target="_blank" rel="noopener"><i class="fa fa-paw fa-lg fa-fw"></i>（最新文档）2019.02.14　v0.3</a>　<strong>提取码：<font color="#FF0000">siv0</font></strong><br><strong>（可能个别动作提取有问题，待完善）文档已更新~有问题弹我！</strong><br>最近从广州爬来上海，事情太多一直缺更，<br>心血来潮，突发奇想，遂提取一下尼尔，<br>结果貌似发现新世界~所以这次来个猛的~（？）<br>２０１９．０１．１２</p><h3 id="2019-02-14-更新4（完善步骤）"><a href="#2019-02-14-更新4（完善步骤）" class="headerlink" title="　2019.02.14 更新4（完善步骤）"></a>　2019.02.14 更新4（完善步骤）</h3><p>经过多数小伙伴反馈，完善了一下载入动画步骤~<img src="https://attach.cgjoy.com/attachment/forum/201902/14/014008ahleb9c9ljtbh1hc.png" alt=""></p><h3 id="2019-01-15-更新3"><a href="#2019-01-15-更新3" class="headerlink" title="　2019.01.15 更新3"></a>　2019.01.15 更新3</h3><p>添加方便打包解包dat等文件工具，非常节省时间！！！<br><a class="btn" href="https://pan.baidu.com/s/1hLl0xBIMYH8B_BseE2Rj3A" target="_blank" rel="noopener"><i class="fa fa-paw fa-lg fa-fw"></i>NieRExplorer-alpha-0-3</a>　<strong>提取码：<font color="#FF0000">j44g</font></strong></p><h3 id="2019-01-13-更新2（重大更新）"><a href="#2019-01-13-更新2（重大更新）" class="headerlink" title="　2019.01.13 更新2（重大更新）"></a>　2019.01.13 更新2（重大更新）</h3><p><img src="https://attach.cgjoy.com/attachment/forum/201901/13/165440rhu7zj7z78v847v1.png" alt=""><strong>文档下载：（上文已更新版本）</strong></p><h3 id="2019-01-13-更新1"><a href="#2019-01-13-更新1" class="headerlink" title="　2019.01.13 更新1"></a>　2019.01.13 更新1</h3><p>折腾了一天，经历重重挫折终于勉强算是搞定了第一步。。<br>过程太傻太冗长，待后续更新。顺带放出个伪（？）max文件。<br>几百个动作在一个文件里，得解包再拆分还原太麻烦了。。<br>导出就不全导出了。当查看器还蛮不错的。<br><del>等睡醒后，再整理下步骤加个录屏~（鸽了，换成了文档形式）</del></p><h3 id="2019-01-12-干货预览（插件非原创）"><a href="#2019-01-12-干货预览（插件非原创）" class="headerlink" title="　2019.01.12 干货预览（插件非原创）"></a>　2019.01.12 干货预览（插件非原创）</h3><p><em><font color="#FF0000">tips：视频不显示请刷新网页~</font></em><center> <div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","loop":true,"video":{"url":"https://v.cgjoy.com/forum/201901/12/175155bazinanxxctkinjy.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> </center>由于查看的资源文件太大（10多G，非游戏源文件），<br><del><strong>等我整理好再发教程</strong></del>~先迫不及待分享下！各位口下留情…</p>]]></content>
+      
+      
       <categories>
-        <category>Bullet Time</category>
+          
+          <category> Bullet Time </category>
+          
       </categories>
-      <tags>
-        <tag>尼尔 机械纪元</tag>
-        <tag>游戏解包</tag>
-        <tag>动画参考</tag>
-        <tag>模型提取</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[测试文章中添加视频GIF]]></title>
-    <url>%2FAnimation%2Fgif-test.html</url>
-    <content type="text"><![CDATA[文章添加视频和GIF测试，顺便测试置顶功能~为以后放作品做测试（？） 视频如下 —-代码，按钮等等样式随缘测试~ B站地址（超链接）123如果好用可考虑以后放作品！（很大概率会鸽掉~）**代码块。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 尼尔 机械纪元 </tag>
+            
+            <tag> 游戏解包 </tag>
+            
+            <tag> 动画参考 </tag>
+            
+            <tag> 模型提取 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试文章中添加视频GIF</title>
+      <link href="/Animation/gif-test.html"/>
+      <url>/Animation/gif-test.html</url>
+      
+        <content type="html"><![CDATA[<p><strong><p class="description">文章添加视频和GIF测试，顺便测试置顶功能~为以后放作品做测试（？）</p></strong></p><p><center><img src="https://attach.cgjoy.com/attachment/album/201901/31/000119htifppfpmw5lzzp6.gif" alt="" style="width:40%"></center><a id="more"></a></p><h2 id="视频如下-—-代码，按钮等等样式随缘测试"><a href="#视频如下-—-代码，按钮等等样式随缘测试" class="headerlink" title=" 视频如下 —-代码，按钮等等样式随缘测试~"></a><span id="inline-blue"> 视频如下 </span>—-代码，按钮等等样式随缘测试~</h2><p><center><iframe src="//player.bilibili.com/player.html?aid=21156195&cid=34733471&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" width="100%" height="700"> </iframe></center><br><a class="btn" href="https://www.bilibili.com/video/av21156195" target="_blank" rel="noopener"><i class="fa fa-download fa-lg fa-fw"></i>B站地址</a>（<strong>超链接</strong>）<i class="fa fa-refresh fa-spin fa-3x fa-fw"></i><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">如果好用可考虑以后放作品！</span><br><span class="line">（很大概率会鸽掉~）</span><br><span class="line">**代码块。</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
       <categories>
-        <category>Animation</category>
+          
+          <category> Animation </category>
+          
       </categories>
-      <tags>
-        <tag>S.anim</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Test]]></title>
-    <url>%2FTest%2Ftest.html</url>
-    <content type="text"><![CDATA[个人网站，美化中…纯属兴趣~~~]]></content>
+      
+      
+        <tags>
+            
+            <tag> S.anim </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Test</title>
+      <link href="/Test/test.html"/>
+      <url>/Test/test.html</url>
+      
+        <content type="html"><![CDATA[<p>个人网站，美化中…<br>纯属兴趣~~~</p>]]></content>
+      
+      
       <categories>
-        <category>Test</category>
+          
+          <category> Test </category>
+          
       </categories>
-      <tags>
-        <tag>Test</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> Test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
