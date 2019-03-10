@@ -85,7 +85,7 @@
     root: '/',
     scheme: 'Gemini',
     version: '6.7.0',
-    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     fastclick: true,
     lazyload: true,
@@ -119,7 +119,7 @@
 <meta property="og:image" content="https://attach.cgjoy.com/attachment/forum/201901/12/175138q3yyskkbg29gbx36.jpg">
 <meta property="og:image" content="https://attach.cgjoy.com/attachment/forum/201902/14/014008ahleb9c9ljtbh1hc.png">
 <meta property="og:image" content="https://attach.cgjoy.com/attachment/forum/201901/13/165440rhu7zj7z78v847v1.png">
-<meta property="og:updated_time" content="2019-02-13T18:24:51.981Z">
+<meta property="og:updated_time" content="2019-03-10T09:35:56.062Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="（02.14更新）【子弹时间】尼尔动画源文件60fps查看">
 <meta name="twitter:description" content="之前本人在CGjoy发过，转到这里留个爪…(水印就不管啦~)">
@@ -1276,24 +1276,17 @@ pre .javascript .function {
   color: #222 !important;
 }
 .back-to-top {
-  box-sizing: border-box;
-  position: fixed;
-  bottom: -100px;
-  right: 30px;
-  z-index: 1050;
-  padding: 0 6px;
-  width: initial;
-  background: #222;
+  visibility: hidden;
+  margin: 8px -10px -20px;
+  background: #eee;
   font-size: 12px;
   opacity: 0.6;
-  color: #fff;
   cursor: pointer;
   text-align: center;
   -webkit-transform: translateZ(0);
-  transition-property: bottom;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+}
+.back-to-top:hover {
+  opacity: 0.8;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .back-to-top {
@@ -1306,7 +1299,10 @@ pre .javascript .function {
   }
 }
 .back-to-top.back-to-top-on {
-  bottom: 30px;
+  visibility: visible;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
 }
 .header {
   background: transparent;
@@ -2303,7 +2299,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fcfeff;
+  background: #ffffe8;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -4713,7 +4709,7 @@ v.vcontrol {
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-02-14 02:24:51" itemprop="dateModified" datetime="2019-02-14T02:24:51+08:00">2019-02-14</time>
+                <time title="修改时间：2019-03-10 17:35:56" itemprop="dateModified" datetime="2019-03-10T17:35:56+08:00">2019-03-10</time>
               
             
           </span>
@@ -4853,7 +4849,7 @@ v.vcontrol {
   <p><span>本文标题:</span><a href="/Bullet-Time/nier-export.html">（02.14更新）【子弹时间】尼尔动画源文件60fps查看</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 ✪ Animator.Bullet 的个人博客">✪ Animator.Bullet</a></p>
   <p><span>发布时间:</span>2019年02月13日 - 23:57</p>
-  <p><span>最后更新:</span>2019年02月14日 - 02:24</p>
+  <p><span>最后更新:</span>2019年03月10日 - 17:35</p>
   <p><span>原始链接:</span><a href="/Bullet-Time/nier-export.html" title="（02.14更新）【子弹时间】尼尔动画源文件60fps查看">https://acebullet.tk/Bullet-Time/nier-export.html</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://acebullet.tk/Bullet-Time/nier-export.html" aria-label="复制成功！"></i></span>
   </p>
@@ -5269,6 +5265,13 @@ v.vcontrol {
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="42" src="//music.163.com/outchain/player?type=2&amp;id=468490608&amp;auto=0&amp;height=32"></iframe>
     </div>
   </aside>
@@ -5358,13 +5361,6 @@ v.vcontrol {
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-          <span id="scrollpercent"><span>0</span>%</span>
-        
-      </div>
     
 
     
