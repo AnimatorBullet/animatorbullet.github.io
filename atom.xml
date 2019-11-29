@@ -6,42 +6,15 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://acebullet.tk/"/>
-  <updated>2019-03-10T09:35:56.062Z</updated>
+  <updated>2019-02-13T17:16:34.605Z</updated>
   <id>https://acebullet.tk/</id>
   
   <author>
-    <name>✪ Animator.Bullet</name>
+    <name>✪ Bullet.S</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>（02.14更新）【子弹时间】尼尔动画源文件60fps查看</title>
-    <link href="https://acebullet.tk/Bullet-Time/nier-export.html"/>
-    <id>https://acebullet.tk/Bullet-Time/nier-export.html</id>
-    <published>2019-02-13T15:57:18.000Z</published>
-    <updated>2019-03-10T09:35:56.062Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;&lt;p class=&quot;description&quot;&gt;之前本人在CGjoy发过，转到这里留个爪…(水印就不管啦~)&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;img src=&quot;https://attach.cgjoy.com/attachment/forum/201901/12/175138q3yyskkbg29gbx36.jpg&quot; alt=&quot;&quot; style=&quot;width:50%&quot;&gt;&lt;/center&gt;
-    
-    </summary>
-    
-      <category term="Bullet Time" scheme="https://acebullet.tk/categories/Bullet-Time/"/>
-    
-    
-      <category term="尼尔 机械纪元" scheme="https://acebullet.tk/tags/%E5%B0%BC%E5%B0%94-%E6%9C%BA%E6%A2%B0%E7%BA%AA%E5%85%83/"/>
-    
-      <category term="游戏解包" scheme="https://acebullet.tk/tags/%E6%B8%B8%E6%88%8F%E8%A7%A3%E5%8C%85/"/>
-    
-      <category term="动画参考" scheme="https://acebullet.tk/tags/%E5%8A%A8%E7%94%BB%E5%8F%82%E8%80%83/"/>
-    
-      <category term="模型提取" scheme="https://acebullet.tk/tags/%E6%A8%A1%E5%9E%8B%E6%8F%90%E5%8F%96/"/>
-    
-  </entry>
   
   <entry>
     <title>测试文章中添加视频GIF</title>
