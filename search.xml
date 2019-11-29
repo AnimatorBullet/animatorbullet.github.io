@@ -1,57 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>测试文章中添加视频GIF</title>
-      <link href="/Animation/gif-test.html"/>
-      <url>/Animation/gif-test.html</url>
-      
-        <content type="html"><![CDATA[<p><strong><p class="description">文章添加视频和GIF测试，顺便测试置顶功能~为以后放作品做测试（？）</p></strong></p><p><center><img src="https://attach.cgjoy.com/attachment/album/201901/31/000119htifppfpmw5lzzp6.gif" alt="" style="width:40%"></center><a id="more"></a></p><h2 id="视频如下-—-代码，按钮等等样式随缘测试"><a href="#视频如下-—-代码，按钮等等样式随缘测试" class="headerlink" title=" 视频如下 —-代码，按钮等等样式随缘测试~"></a><span id="inline-blue"> 视频如下 </span>—-代码，按钮等等样式随缘测试~</h2><p><center><iframe src="//player.bilibili.com/player.html?aid=21156195&cid=34733471&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" width="100%" height="700"> </iframe></center><br><a class="btn" href="https://www.bilibili.com/video/av21156195" target="_blank" rel="noopener"><i class="fa fa-download fa-lg fa-fw"></i>B站地址</a>（<strong>超链接</strong>）<i class="fa fa-refresh fa-spin fa-3x fa-fw"></i><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">如果好用可考虑以后放作品！</span><br><span class="line">（很大概率会鸽掉~）</span><br><span class="line">**代码块。</span><br></pre></td></tr></table></figure></p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[测试文章中添加视频GIF]]></title>
+    <url>%2FAnimation%2Fgif-test.html</url>
+    <content type="text"><![CDATA[文章添加视频和GIF测试，顺便测试置顶功能~为以后放作品做测试（？） 视频如下 —-代码，按钮等等样式随缘测试~ B站地址（超链接）123如果好用可考虑以后放作品！（很大概率会鸽掉~）**代码块。]]></content>
       <categories>
-          
-          <category> Animation </category>
-          
+        <category>Animation</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> S.anim </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Test</title>
-      <link href="/Test/test.html"/>
-      <url>/Test/test.html</url>
-      
-        <content type="html"><![CDATA[<p>个人网站，美化中…<br>纯属兴趣~~~</p>]]></content>
-      
-      
+      <tags>
+        <tag>S.anim</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Test]]></title>
+    <url>%2FTest%2Ftest.html</url>
+    <content type="text"><![CDATA[个人网站，美化中…纯属兴趣~~~]]></content>
       <categories>
-          
-          <category> Test </category>
-          
+        <category>Test</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>Test</tag>
+      </tags>
+  </entry>
 </search>
